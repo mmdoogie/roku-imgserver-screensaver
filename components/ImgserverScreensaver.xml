@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ImgserverScreensaver" extends="Scene" >
+
+<script type="text/brightscript" uri = "pkg:/components/ImgserverScreensaver.brs"/>
+
+<children>
+
+	<Poster
+		id = "BackgroundArt1"
+		width = "1280"
+		height = "720"
+		loadHeight = "720"
+		loadDisplayMode = "scaleToFit"
+	/>
+
+	<Poster
+		id = "BackgroundArt2"
+		width = "1280"
+		height = "720"
+		loadHeight = "720"
+		loadDisplayMode = "scaleToFit"
+	/>
+
+	<Timer
+		id = "FlipTimer"
+		repeat = "false"
+		duration = "5"
+	/>
+
+	<Timer
+		id = "DebounceTimer"
+		repeat = "false"
+		duration = "0.7"
+	/>
+
+	<Label
+		id = "TopLabel"
+		vertAlign = "top"
+		horizAlign = "center"
+		translation = "[0, 0]"
+		width = "1280"
+		height = "0"
+		numLines = "2"
+		wrap = "true"
+		font = "font:MediumBoldSystemFont"
+	/>
+
+	<BusySpinner
+		id = "Spinner"
+		spinInterval = "5"
+		control = "start"
+		translation = "[624, 688]"
+		visible = "false"
+	/>
+
+</children>
+
+</component>

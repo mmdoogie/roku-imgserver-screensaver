@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="ISRefreshImages" extends="Task">
+	<interface>
+		<field id="basePath" type="string"/>
+		<field id="imgCount" type="integer"/>
+		<field id="imgDescs" type="array"/>
+	</interface>
+	
+	<script type="text/brightscript" uri = "pkg:/components/ISRefreshImages.brs"/>
+</component>
