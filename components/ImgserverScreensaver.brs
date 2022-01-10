@@ -114,7 +114,7 @@ End Function
 Function realUpdateImage() as Void
 	dt = CreateObject("roDateTime")
 	ts = dt.AsSeconds()
-	uri = m.fetchTask.basePath + "img.php?num=" + StrI(m.currImg,10) + "&ts=" + StrI(ts,16)
+	uri = m.fetchTask.basePath + "imgserver.php?cmd=img&num=" + StrI(m.currImg,10) + "&ts=" + StrI(ts,16)
 	print uri
 	if (m.currBG = 1) then
 		m.bg2.uri = uri

@@ -9,14 +9,14 @@ sub refreshImages()
 	http = CreateObject("roUrlTransfer")
 
 	print "Getting imgCount"
-	fullUrl = m.top.basePath + "imgCount.php"
+	fullUrl = m.top.basePath + "imgserver.php?cmd=cnt"
 	http.SetUrl(fullUrl)
 	newIC = http.GetToString()
 	print "Got imgCount "; newIC
 	m.top.imgCount = newIC
 
 	print "Getting imgDescs"
-	fullUrl = m.top.basePath + "imgDescs.php"
+	fullUrl = m.top.basePath + "imgserver.php?cmd=descs"
 	http.SetUrl(fullUrl)
 	newID = ParseJson(http.GetToString())
 	print "Got imgDescs "; newID
