@@ -7,17 +7,17 @@
 
 	<Poster
 		id = "BackgroundArt1"
-		width = "1280"
-		height = "720"
-		loadHeight = "720"
+		width = "1920"
+		height = "1080"
+		loadHeight = "1080"
 		loadDisplayMode = "scaleToFit"
 	/>
 
 	<Poster
 		id = "BackgroundArt2"
-		width = "1280"
-		height = "720"
-		loadHeight = "720"
+		width = "1920"
+		height = "1080"
+		loadHeight = "1080"
 		loadDisplayMode = "scaleToFit"
 	/>
 
@@ -38,7 +38,7 @@
 		vertAlign = "top"
 		horizAlign = "center"
 		translation = "[0, 0]"
-		width = "1280"
+		width = "1920"
 		height = "0"
 		numLines = "2"
 		wrap = "true"
@@ -49,7 +49,7 @@
 		id = "Spinner"
 		spinInterval = "5"
 		control = "start"
-		translation = "[624, 688]"
+		translation = "[944, 1048]"
 		visible = "false"
 	/>
 
