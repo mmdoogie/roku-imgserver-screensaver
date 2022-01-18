@@ -49,7 +49,7 @@
 		id = "Spinner"
 		spinInterval = "5"
 		control = "start"
-		translation = "[944, 1048]"
+		translation = "[944, 1026]"
 		visible = "false"
 	/>
 
